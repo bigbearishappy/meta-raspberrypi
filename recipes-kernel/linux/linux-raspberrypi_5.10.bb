@@ -12,6 +12,7 @@ SRC_URI = " \
     git://git.yoctoproject.org/yocto-kernel-cache;type=kmeta;name=meta;branch=${LINUX_RPI_KMETA_BRANCH};destsuffix=${KMETA} \
     file://powersave.cfg \
     file://android-drivers.cfg \
+    file://0003-add-reTerminal-dtoverlay-for-yocto.patch \
     "
 
 require linux-raspberrypi.inc
